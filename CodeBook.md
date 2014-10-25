@@ -50,7 +50,7 @@ The information about the subjects that realized the experiments is read from th
 				* **tGravityAcc-std()-X**: numeric value, representing the X direction
 				* **tGravityAcc-std()-Y**: numeric value, representing the Y direction
 				* **tGravityAcc-std()-Z**: numeric value, representing the Z direction
-		* Gerk signals
+		* Jerk signals
 			* Averages
 				* **tBodyAccJerk-mean()-X**: numeric value, representing the X direction
 				* **tBodyAccJerk-mean()-Y**: numeric value, representing the Y direction
@@ -69,7 +69,7 @@ The information about the subjects that realized the experiments is read from th
 				* **tBodyGyro-std()-X**: numeric value, representing the X direction
 				* **tBodyGyro-std()-Y**: numeric value, representing the Y direction
 				* **tBodyGyro-std()-Z**: numeric value, representing the Z direction
-		* Gerk signals
+		* Jerk signals
 			* Averages
 				* **tBodyGyroJerk-mean()-X**: numeric value, representing the X direction
 				* **tBodyGyroJerk-mean()-Y**: numeric value, representing the Y direction
@@ -86,14 +86,14 @@ The information about the subjects that realized the experiments is read from th
 			* Gravity
 				* **tGravityAccMag-mean()**: numeric value, representing the average
 				* **tGravityAccMag-std()**: numeric value, representing the average of the standard deviations
-			* Gerk signal
+			* Jerk signal
 				* **tBodyAccJerkMag-mean()**: numeric value, representing the average
 				* **tBodyAccJerkMag-std()**: numeric value, representing the average of the standard deviations
 		* Using the gyroscope
 			* Body movement
 				* **tBodyGyroMag-mean()**: numeric value, representing the average
 				* **tBodyGyroMag-std()**: numeric value, representing the average of the standard deviations
-			* Gerk signal
+			* Jerk signal
 				* **tBodyGyroJerkMag-mean()**: numeric value, representing the average
 				* **tBodyGyroJerkMag-std()**: numeric value, representing the average of the standard deviations
 * Frequency domain signals
@@ -116,7 +116,7 @@ The information about the subjects that realized the experiments is read from th
 				* **fGravityAcc-std()-X**: numeric value, representing the X direction
 				* **fGravityAcc-std()-Y**: numeric value, representing the Y direction
 				* **fGravityAcc-std()-Z**: numeric value, representing the Z direction
-		* Gerk signals
+		* Jerk signals
 			* Averages
 				* **fBodyAccJerk-mean()-X**: numeric value, representing the X direction
 				* **fBodyAccJerk-mean()-Y**: numeric value, representing the Y direction
@@ -135,7 +135,7 @@ The information about the subjects that realized the experiments is read from th
 				* **fBodyGyro-std()-X**: numeric value, representing the X direction
 				* **fBodyGyro-std()-Y**: numeric value, representing the Y direction
 				* **fBodyGyro-std()-Z**: numeric value, representing the Z direction
-		* Gerk signals
+		* Jerk signals
 			* Averages
 				* **fBodyGyroJerk-mean()-X**: numeric value, representing the X direction
 				* **fBodyGyroJerk-mean()-Y**: numeric value, representing the Y direction
@@ -152,14 +152,14 @@ The information about the subjects that realized the experiments is read from th
 			* Gravity
 				* **fGravityAccMag-mean()**: numeric value, representing the average
 				* **fGravityAccMag-std()**: numeric value, representing the average of the standard deviations
-			* Gerk signal
+			* Jerk signal
 				* **fBodyAccJerkMag-mean()**: numeric value, representing the average
 				* **fBodyAccJerkMag-std()**: numeric value, representing the average of the standard deviations
 		* Using the gyroscope
 			* Body movement
 				* **fBodyGyroMag-mean()**: numeric value, representing the average
 				* **fBodyGyroMag-std()**: numeric value, representing the average of the standard deviations
-			* Gerk signal
+			* Jerk signal
 				* **fBodyGyroJerkMag-mean()**: numeric value, representing the average
 				* **fBodyGyroJerkMag-std()**: numeric value, representing the average of the standard deviations
 * Identification
