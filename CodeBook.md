@@ -79,16 +79,18 @@ The information about the subjects that realized the experiments is read from th
 				* **tBodyGyroJerk-std()-Y**: numeric value, representing the Y direction
 				* **tBodyGyroJerk-std()-Z**: numeric value, representing the Z direction
 	* Magnitude of the values
-		* **tBodyAccMag-mean()**: numeric value, representing the average of the magnitude of the body movement using the accelerator
-		* **tBodyAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement using the accelerator
-		* **tGravityAccMag-mean()**: numeric value, representing the average of the magnitude of the gravity using the accelerator
-		* **tGravityAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the gravity using the accelerator
-		* **tBodyAccJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals using the accelerator
-		* **tBodyAccJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals using the accelerator
-		* **tBodyGyroMag-mean()**: numeric value, representing the average of the magnitude of the body movement using the gyroscope
-		* **tBodyGyroMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement using the gyroscope
-		* **tBodyGyroJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals using the gyroscope
-		* **tBodyGyroJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals using the gyroscope
+		* Using the accelerator
+			* **tBodyAccMag-mean()**: numeric value, representing the average of the magnitude of the body movement
+			* **tBodyAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement
+			* **tGravityAccMag-mean()**: numeric value, representing the average of the magnitude of the gravity
+			* **tGravityAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the gravity
+			* **tBodyAccJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals
+			* **tBodyAccJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals
+		* Using the gyroscope
+			* **tBodyGyroMag-mean()**: numeric value, representing the average of the magnitude of the body movement
+			* **tBodyGyroMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement
+			* **tBodyGyroJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals
+			* **tBodyGyroJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals
 * Frequency domain signals
 	* Using the accelerator
 		* Body Movement
@@ -138,16 +140,18 @@ The information about the subjects that realized the experiments is read from th
 				* **fBodyGyroJerk-std()-Y**: numeric value, representing the Y direction
 				* **fBodyGyroJerk-std()-Z**: numeric value, representing the Z direction
 	* Magnitude of the values
-		* **fBodyAccMag-mean()**: numeric value, representing the average of the magnitude of the body movement using the accelerator
-		* **fBodyAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement using the accelerator
-		* **fGravityAccMag-mean()**: numeric value, representing the average of the magnitude of the gravity using the accelerator
-		* **fGravityAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the gravity using the accelerator
-		* **fBodyAccJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals using the accelerator
-		* **fBodyAccJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals using the accelerator
-		* **fBodyGyroMag-mean()**: numeric value, representing the average of the magnitude of the body movement using the gyroscope
-		* **fBodyGyroMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement using the gyroscope
-		* **fBodyGyroJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals using the gyroscope
-		* **fBodyGyroJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals using the gyroscope
+		* Using the accelerator
+			* **fBodyAccMag-mean()**: numeric value, representing the average of the magnitude of the body movement
+			* **fBodyAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement
+			* **fGravityAccMag-mean()**: numeric value, representing the average of the magnitude of the gravity
+			* **fGravityAccMag-std()**: numeric value, representing the standard deviation of the magnitude of the gravity
+			* **fBodyAccJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals
+			* **fBodyAccJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals
+		* Using the gyroscope
+			* **fBodyGyroMag-mean()**: numeric value, representing the average of the magnitude of the body movement
+			* **fBodyGyroMag-std()**: numeric value, representing the standard deviation of the magnitude of the body movement
+			* **fBodyGyroJerkMag-mean()**: numeric value, representing the average of the magnitude of the Jerk signals
+			* **fBodyGyroJerkMag-std()**: numeric value, representing the standard deviation of the magnitude of the Jerk signals
 * Identification
 	* **subject**: integer, representing the id of the subject that did the movements
 	* **activity**: string, representing which was the activity executed by this subject when these values were captured
